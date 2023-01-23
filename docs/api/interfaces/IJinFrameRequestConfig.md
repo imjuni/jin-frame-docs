@@ -19,7 +19,7 @@ headers, method, data, url, validateStatus use jin-frame configuration value.
 
 ### adapter
 
-• `Optional` **adapter**: `AxiosAdapter`
+• `Optional` **adapter**: `AxiosAdapterConfig` \| `AxiosAdapterConfig`[]
 
 #### Inherited from
 
@@ -27,7 +27,7 @@ Omit.adapter
 
 #### Defined in
 
-jin-frame/node_modules/axios/index.d.ts:289
+jin-frame/node_modules/axios/index.d.ts:299
 
 ___
 
@@ -41,7 +41,7 @@ Omit.auth
 
 #### Defined in
 
-jin-frame/node_modules/axios/index.d.ts:290
+jin-frame/node_modules/axios/index.d.ts:300
 
 ___
 
@@ -55,7 +55,7 @@ Omit.baseURL
 
 #### Defined in
 
-jin-frame/node_modules/axios/index.d.ts:279
+jin-frame/node_modules/axios/index.d.ts:289
 
 ___
 
@@ -85,7 +85,7 @@ Omit.beforeRedirect
 
 #### Defined in
 
-jin-frame/node_modules/axios/index.d.ts:302
+jin-frame/node_modules/axios/index.d.ts:312
 
 ___
 
@@ -99,7 +99,7 @@ Omit.cancelToken
 
 #### Defined in
 
-jin-frame/node_modules/axios/index.d.ts:307
+jin-frame/node_modules/axios/index.d.ts:317
 
 ___
 
@@ -113,7 +113,7 @@ Omit.decompress
 
 #### Defined in
 
-jin-frame/node_modules/axios/index.d.ts:308
+jin-frame/node_modules/axios/index.d.ts:318
 
 ___
 
@@ -133,7 +133,7 @@ Omit.env
 
 #### Defined in
 
-jin-frame/node_modules/axios/index.d.ts:312
+jin-frame/node_modules/axios/index.d.ts:322
 
 ___
 
@@ -147,7 +147,7 @@ Omit.formSerializer
 
 #### Defined in
 
-jin-frame/node_modules/axios/index.d.ts:315
+jin-frame/node_modules/axios/index.d.ts:325
 
 ___
 
@@ -161,7 +161,7 @@ Omit.httpAgent
 
 #### Defined in
 
-jin-frame/node_modules/axios/index.d.ts:304
+jin-frame/node_modules/axios/index.d.ts:314
 
 ___
 
@@ -175,7 +175,7 @@ Omit.httpsAgent
 
 #### Defined in
 
-jin-frame/node_modules/axios/index.d.ts:305
+jin-frame/node_modules/axios/index.d.ts:315
 
 ___
 
@@ -189,7 +189,7 @@ Omit.insecureHTTPParser
 
 #### Defined in
 
-jin-frame/node_modules/axios/index.d.ts:311
+jin-frame/node_modules/axios/index.d.ts:321
 
 ___
 
@@ -203,7 +203,7 @@ Omit.maxBodyLength
 
 #### Defined in
 
-jin-frame/node_modules/axios/index.d.ts:299
+jin-frame/node_modules/axios/index.d.ts:309
 
 ___
 
@@ -217,7 +217,7 @@ Omit.maxContentLength
 
 #### Defined in
 
-jin-frame/node_modules/axios/index.d.ts:297
+jin-frame/node_modules/axios/index.d.ts:307
 
 ___
 
@@ -231,7 +231,7 @@ Omit.maxRate
 
 #### Defined in
 
-jin-frame/node_modules/axios/index.d.ts:301
+jin-frame/node_modules/axios/index.d.ts:311
 
 ___
 
@@ -245,7 +245,7 @@ Omit.maxRedirects
 
 #### Defined in
 
-jin-frame/node_modules/axios/index.d.ts:300
+jin-frame/node_modules/axios/index.d.ts:310
 
 ___
 
@@ -273,7 +273,7 @@ Omit.onDownloadProgress
 
 #### Defined in
 
-jin-frame/node_modules/axios/index.d.ts:296
+jin-frame/node_modules/axios/index.d.ts:306
 
 ___
 
@@ -301,7 +301,7 @@ Omit.onUploadProgress
 
 #### Defined in
 
-jin-frame/node_modules/axios/index.d.ts:295
+jin-frame/node_modules/axios/index.d.ts:305
 
 ___
 
@@ -315,7 +315,7 @@ Omit.params
 
 #### Defined in
 
-jin-frame/node_modules/axios/index.d.ts:283
+jin-frame/node_modules/axios/index.d.ts:293
 
 ___
 
@@ -329,7 +329,7 @@ Omit.paramsSerializer
 
 #### Defined in
 
-jin-frame/node_modules/axios/index.d.ts:284
+jin-frame/node_modules/axios/index.d.ts:294
 
 ___
 
@@ -343,7 +343,7 @@ Omit.proxy
 
 #### Defined in
 
-jin-frame/node_modules/axios/index.d.ts:306
+jin-frame/node_modules/axios/index.d.ts:316
 
 ___
 
@@ -357,7 +357,7 @@ Omit.responseEncoding
 
 #### Defined in
 
-jin-frame/node_modules/axios/index.d.ts:292
+jin-frame/node_modules/axios/index.d.ts:302
 
 ___
 
@@ -371,7 +371,7 @@ Omit.responseType
 
 #### Defined in
 
-jin-frame/node_modules/axios/index.d.ts:291
+jin-frame/node_modules/axios/index.d.ts:301
 
 ___
 
@@ -385,7 +385,7 @@ Omit.signal
 
 #### Defined in
 
-jin-frame/node_modules/axios/index.d.ts:310
+jin-frame/node_modules/axios/index.d.ts:320
 
 ___
 
@@ -399,7 +399,7 @@ Omit.socketPath
 
 #### Defined in
 
-jin-frame/node_modules/axios/index.d.ts:303
+jin-frame/node_modules/axios/index.d.ts:313
 
 ___
 
@@ -413,7 +413,7 @@ Omit.timeout
 
 #### Defined in
 
-jin-frame/node_modules/axios/index.d.ts:286
+jin-frame/node_modules/axios/index.d.ts:296
 
 ___
 
@@ -427,7 +427,7 @@ Omit.timeoutErrorMessage
 
 #### Defined in
 
-jin-frame/node_modules/axios/index.d.ts:287
+jin-frame/node_modules/axios/index.d.ts:297
 
 ___
 
@@ -441,7 +441,7 @@ Omit.transformRequest
 
 #### Defined in
 
-jin-frame/node_modules/axios/index.d.ts:280
+jin-frame/node_modules/axios/index.d.ts:290
 
 ___
 
@@ -455,7 +455,7 @@ Omit.transformResponse
 
 #### Defined in
 
-jin-frame/node_modules/axios/index.d.ts:281
+jin-frame/node_modules/axios/index.d.ts:291
 
 ___
 
@@ -469,7 +469,7 @@ Omit.transitional
 
 #### Defined in
 
-jin-frame/node_modules/axios/index.d.ts:309
+jin-frame/node_modules/axios/index.d.ts:319
 
 ___
 
@@ -482,7 +482,7 @@ that string by useAgent field.
 
 #### Defined in
 
-[jin-frame/src/interfaces/IJinFrameRequestConfig.ts:13](https://github.com/imjuni/jin-frame/blob/e005d9d/src/interfaces/IJinFrameRequestConfig.ts#L13)
+[jin-frame/src/interfaces/IJinFrameRequestConfig.ts:13](https://github.com/imjuni/jin-frame/blob/8c406fc/src/interfaces/IJinFrameRequestConfig.ts#L13)
 
 ___
 
@@ -496,7 +496,7 @@ Omit.withCredentials
 
 #### Defined in
 
-jin-frame/node_modules/axios/index.d.ts:288
+jin-frame/node_modules/axios/index.d.ts:298
 
 ___
 
@@ -510,7 +510,7 @@ Omit.xsrfCookieName
 
 #### Defined in
 
-jin-frame/node_modules/axios/index.d.ts:293
+jin-frame/node_modules/axios/index.d.ts:303
 
 ___
 
@@ -524,4 +524,4 @@ Omit.xsrfHeaderName
 
 #### Defined in
 
-jin-frame/node_modules/axios/index.d.ts:294
+jin-frame/node_modules/axios/index.d.ts:304

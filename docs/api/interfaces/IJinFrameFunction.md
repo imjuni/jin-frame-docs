@@ -36,7 +36,7 @@ custom_edit_url: null
 
 #### Defined in
 
-[jin-frame/src/frames/AbstractJinFrame.ts:35](https://github.com/imjuni/jin-frame/blob/e005d9d/src/frames/AbstractJinFrame.ts#L35)
+[jin-frame/src/interfaces/IJinFrameFunction.ts:9](https://github.com/imjuni/jin-frame/blob/8c406fc/src/interfaces/IJinFrameFunction.ts#L9)
 
 ___
 
@@ -56,4 +56,4 @@ ___
 
 #### Defined in
 
-[jin-frame/src/frames/AbstractJinFrame.ts:46](https://github.com/imjuni/jin-frame/blob/e005d9d/src/frames/AbstractJinFrame.ts#L46)
+[jin-frame/src/interfaces/IJinFrameFunction.ts:20](https://github.com/imjuni/jin-frame/blob/8c406fc/src/interfaces/IJinFrameFunction.ts#L20)

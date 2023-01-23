@@ -14,7 +14,7 @@ custom_edit_url: null
 
 #### Defined in
 
-[jin-frame/src/interfaces/body/IBodyField.ts:5](https://github.com/imjuni/jin-frame/blob/e005d9d/src/interfaces/body/IBodyField.ts#L5)
+[jin-frame/src/interfaces/body/IBodyField.ts:5](https://github.com/imjuni/jin-frame/blob/8c406fc/src/interfaces/body/IBodyField.ts#L5)
 
 ___
 
@@ -24,4 +24,4 @@ ___
 
 #### Defined in
 
-[jin-frame/src/interfaces/body/IBodyField.ts:6](https://github.com/imjuni/jin-frame/blob/e005d9d/src/interfaces/body/IBodyField.ts#L6)
+[jin-frame/src/interfaces/body/IBodyField.ts:6](https://github.com/imjuni/jin-frame/blob/8c406fc/src/interfaces/body/IBodyField.ts#L6)

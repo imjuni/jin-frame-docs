@@ -13,24 +13,16 @@ ConstructorType extract member variable only from Jin-Frame.
 ```ts
 class Test001PostFrame extends JinEitherFrame {
   @JinEitherFrame.param()
-  public readonly passing: string;
+  public readonly passing!: string;
 
   @JinEitherFrame.body()
-  public readonly username: string[];
+  public readonly username!: string[];
 
   @JinEitherFrame.body()
-  public readonly password: string;
+  public readonly password!: string;
 
   constructor(args: ConstructorType<Test001PostFrame>) {
-    super({
-      host: args.host,
-      method: args.method,
-      contentType: args.contentType,
-    });
-
-    this.passing = args.passing;
-    this.username = args.username;
-    this.password = args.password;
+    super({ ...args });
   }
 }
 ```
@@ -42,23 +34,20 @@ OmitConstructorType extract member variable only from Jin-Frame and some variabl
 ```ts
 class Test001PostFrame extends JinEitherFrame {
   @JinEitherFrame.param()
-  public readonly passing: string;
+  public readonly passing!: string;
 
   @JinEitherFrame.body()
-  public readonly username: string[];
+  public readonly username!: string[];
 
   @JinEitherFrame.body()
-  public readonly password: string;
+  public readonly password!: string;
 
   constructor(args: OmitConstructorType<Test001PostFrame, 'host' | 'method' | 'contentType'>) {
     super({
+      ...args,
       host: 'http://some.api.google.com/jinframe/:passing',
       method: 'POST',
     });
-
-    this.passing = args.passing;
-    this.username = args.username;
-    this.password = args.password;
   }
 }
 ```
@@ -70,24 +59,21 @@ OmitConstructorType extract member variable only from Jin-Frame and some variabl
 ```ts
 class Test001PostFrame extends JinEitherFrame {
   @JinEitherFrame.param()
-  public readonly passing: string;
+  public readonly passing!: string;
 
   @JinEitherFrame.body()
-  public readonly username: string[];
+  public readonly username!: string[];
 
   @JinEitherFrame.body()
-  public readonly password: string;
+  public readonly password!: string;
 
   // JinConstructorType omit 'host', 'path', 'method', 'contentType'
   constructor(args: JinConstructorType<Test001PostFrame>) {
     super({
+      ...args,
       host: 'http://some.api.google.com/jinframe/:passing',
       method: 'POST',
     });
-
-    this.passing = args.passing;
-    this.username = args.username;
-    this.password = args.password;
   }
 }
 ```
@@ -99,24 +85,21 @@ OmitConstructorType extract member variable only from Jin-Frame and some variabl
 ```ts
 class Test001PostFrame extends JinEitherFrame {
   @JinEitherFrame.param()
-  public readonly passing: string;
+  public readonly passing!: string;
 
   @JinEitherFrame.body()
-  public readonly username: string[];
+  public readonly username!: string[];
 
   @JinEitherFrame.body()
-  public readonly password: string;
+  public readonly password!: string;
 
   // JinConstructorType omit 'host', 'path', 'method', 'contentType'
   constructor(args: JinOmitConstructorType<Test001PostFrame, 'usename'>) {
     super({
+      ...args,
       host: 'http://some.api.google.com/jinframe/:passing',
       method: 'POST',
     });
-
-    this.passing = args.passing;
-    this.username = 'ironman';
-    this.password = args.password;
   }
 }
 ```

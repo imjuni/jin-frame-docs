@@ -28,13 +28,13 @@ custom_edit_url: null
 
 debugging information
 
-#### Inherited from
+#### Overrides
 
 [IFailJinEitherFrame](IFailJinEitherFrame.md).[$debug](IFailJinEitherFrame.md#$debug)
 
 #### Defined in
 
-[jin-frame/src/interfaces/IFailJinEitherFrame.ts:11](https://github.com/imjuni/jin-frame/blob/e005d9d/src/interfaces/IFailJinEitherFrame.ts#L11)
+[jin-frame/src/interfaces/IFailJinEitherFrame.ts:26](https://github.com/imjuni/jin-frame/blob/8c406fc/src/interfaces/IFailJinEitherFrame.ts#L26)
 
 ___
 
@@ -50,7 +50,7 @@ exception class, $err representative message, stacktrace
 
 #### Defined in
 
-[jin-frame/src/interfaces/IFailJinEitherFrame.ts:8](https://github.com/imjuni/jin-frame/blob/e005d9d/src/interfaces/IFailJinEitherFrame.ts#L8)
+[jin-frame/src/interfaces/IFailJinEitherFrame.ts:8](https://github.com/imjuni/jin-frame/blob/8c406fc/src/interfaces/IFailJinEitherFrame.ts#L8)
 
 ___
 
@@ -64,7 +64,7 @@ ___
 
 #### Defined in
 
-[jin-frame/src/interfaces/IFailJinEitherFrame.ts:13](https://github.com/imjuni/jin-frame/blob/e005d9d/src/interfaces/IFailJinEitherFrame.ts#L13)
+[jin-frame/src/interfaces/IFailJinEitherFrame.ts:13](https://github.com/imjuni/jin-frame/blob/8c406fc/src/interfaces/IFailJinEitherFrame.ts#L13)
 
 ___
 
@@ -76,7 +76,7 @@ progress of jin-frame, fail representative success communication but result is f
 
 #### Defined in
 
-[jin-frame/src/interfaces/IFailJinEitherFrame.ts:23](https://github.com/imjuni/jin-frame/blob/e005d9d/src/interfaces/IFailJinEitherFrame.ts#L23)
+[jin-frame/src/interfaces/IFailJinEitherFrame.ts:23](https://github.com/imjuni/jin-frame/blob/8c406fc/src/interfaces/IFailJinEitherFrame.ts#L23)
 
 ___
 
@@ -90,7 +90,7 @@ AxiosResponse.config
 
 #### Defined in
 
-jin-frame/node_modules/axios/index.d.ts:345
+jin-frame/node_modules/axios/index.d.ts:355
 
 ___
 
@@ -104,7 +104,7 @@ AxiosResponse.data
 
 #### Defined in
 
-jin-frame/node_modules/axios/index.d.ts:341
+jin-frame/node_modules/axios/index.d.ts:351
 
 ___
 
@@ -118,7 +118,7 @@ AxiosResponse.headers
 
 #### Defined in
 
-jin-frame/node_modules/axios/index.d.ts:344
+jin-frame/node_modules/axios/index.d.ts:354
 
 ___
 
@@ -132,7 +132,7 @@ AxiosResponse.request
 
 #### Defined in
 
-jin-frame/node_modules/axios/index.d.ts:346
+jin-frame/node_modules/axios/index.d.ts:356
 
 ___
 
@@ -146,7 +146,7 @@ ___
 
 #### Defined in
 
-jin-frame/node_modules/axios/index.d.ts:342
+jin-frame/node_modules/axios/index.d.ts:352
 
 ___
 
@@ -160,4 +160,4 @@ ___
 
 #### Defined in
 
-jin-frame/node_modules/axios/index.d.ts:343
+jin-frame/node_modules/axios/index.d.ts:353

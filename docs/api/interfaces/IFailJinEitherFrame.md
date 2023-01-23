@@ -26,13 +26,13 @@ custom_edit_url: null
 
 ### $debug
 
-• **$debug**: [`IDebugInfo`](IDebugInfo.md)
+• **$debug**: `Omit`<[`IDebugInfo`](IDebugInfo.md), ``"req"``\>
 
 debugging information
 
 #### Defined in
 
-[jin-frame/src/interfaces/IFailJinEitherFrame.ts:11](https://github.com/imjuni/jin-frame/blob/e005d9d/src/interfaces/IFailJinEitherFrame.ts#L11)
+[jin-frame/src/interfaces/IFailJinEitherFrame.ts:11](https://github.com/imjuni/jin-frame/blob/8c406fc/src/interfaces/IFailJinEitherFrame.ts#L11)
 
 ___
 
@@ -44,7 +44,7 @@ exception class, $err representative message, stacktrace
 
 #### Defined in
 
-[jin-frame/src/interfaces/IFailJinEitherFrame.ts:8](https://github.com/imjuni/jin-frame/blob/e005d9d/src/interfaces/IFailJinEitherFrame.ts#L8)
+[jin-frame/src/interfaces/IFailJinEitherFrame.ts:8](https://github.com/imjuni/jin-frame/blob/8c406fc/src/interfaces/IFailJinEitherFrame.ts#L8)
 
 ___
 
@@ -54,7 +54,7 @@ ___
 
 #### Defined in
 
-[jin-frame/src/interfaces/IFailJinEitherFrame.ts:13](https://github.com/imjuni/jin-frame/blob/e005d9d/src/interfaces/IFailJinEitherFrame.ts#L13)
+[jin-frame/src/interfaces/IFailJinEitherFrame.ts:13](https://github.com/imjuni/jin-frame/blob/8c406fc/src/interfaces/IFailJinEitherFrame.ts#L13)
 
 ___
 
@@ -68,7 +68,7 @@ Pick.status
 
 #### Defined in
 
-jin-frame/node_modules/axios/index.d.ts:342
+jin-frame/node_modules/axios/index.d.ts:352
 
 ___
 
@@ -82,4 +82,4 @@ Pick.statusText
 
 #### Defined in
 
-jin-frame/node_modules/axios/index.d.ts:343
+jin-frame/node_modules/axios/index.d.ts:353

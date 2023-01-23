@@ -18,7 +18,7 @@ reqeust execute duration
 
 #### Defined in
 
-[jin-frame/src/interfaces/IDebugInfo.ts:19](https://github.com/imjuni/jin-frame/blob/e005d9d/src/interfaces/IDebugInfo.ts#L19)
+[jin-frame/src/interfaces/IDebugInfo.ts:19](https://github.com/imjuni/jin-frame/blob/8c406fc/src/interfaces/IDebugInfo.ts#L19)
 
 ___
 
@@ -30,7 +30,7 @@ AxiosRequestConfig
 
 #### Defined in
 
-[jin-frame/src/interfaces/IDebugInfo.ts:22](https://github.com/imjuni/jin-frame/blob/e005d9d/src/interfaces/IDebugInfo.ts#L22)
+[jin-frame/src/interfaces/IDebugInfo.ts:22](https://github.com/imjuni/jin-frame/blob/8c406fc/src/interfaces/IDebugInfo.ts#L22)
 
 ___
 
@@ -49,4 +49,4 @@ timestamp information at request start at
 
 #### Defined in
 
-[jin-frame/src/interfaces/IDebugInfo.ts:8](https://github.com/imjuni/jin-frame/blob/e005d9d/src/interfaces/IDebugInfo.ts#L8)
+[jin-frame/src/interfaces/IDebugInfo.ts:8](https://github.com/imjuni/jin-frame/blob/8c406fc/src/interfaces/IDebugInfo.ts#L8)

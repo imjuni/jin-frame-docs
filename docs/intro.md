@@ -5,12 +5,13 @@ title: jin-frame
 ---
 
 [![Download Status](https://img.shields.io/npm/dw/jin-frame.svg)](https://npmcharts.com/compare/jin-frame?minimal=true) [![Github Star](https://img.shields.io/github/stars/imjuni/jin-frame.svg?style=popout)](https://github.com/imjuni/jin-frame) [![Github Issues](https://img.shields.io/github/issues-raw/imjuni/jin-frame.svg)](https://github.com/imjuni/jin-frame/issues) [![NPM version](https://img.shields.io/npm/v/jin-frame.svg)](https://www.npmjs.com/package/jin-frame) [![License](https://img.shields.io/npm/l/jin-frame.svg)](https://github.com/imjuni/jin-frame/blob/master/LICENSE) [![cti](https://circleci.com/gh/imjuni/jin-frame.svg?style=shield)](https://app.circleci.com/pipelines/github/imjuni/jin-frame?branch=master)
+[![codecov](https://codecov.io/gh/imjuni/jin-frame/branch/master/graph/badge.svg?token=R7R2PdJcS9)](https://codecov.io/gh/imjuni/jin-frame)
 
 Reusable HTTP request definition library. Ok, Create `template` for Your HTTP Request!
 
 | Axios Usage                             | Jin-Frame                                      |
 | --------------------------------------- | ---------------------------------------------- |
-| ![axios](../static/img/axios-usage.svg) | ![jin-frame](../static/img/jinframe-usage.svg) |
+| ![axios](../static/img/axios-usage.png) | ![jin-frame](../static/img/jinframe-usage.png) |
 
 ## Why jin-frame?
 
@@ -58,12 +59,7 @@ class TestPostQuery extends JinFrame {
   public readonly gender: string;
 
   constructor(args: OmitConstructorType<TestPostQuery, 'host' | 'method' | 'contentType'>) {
-    super({ host: 'http://some.api.yanolja.com/jinframe/:id', method: 'POST' });
-
-    this.id = args.id;
-    this.name = args.name;
-    this.skill = args.skill;
-    this.gender = args.gender;
+    super({ host: 'http://some.api.yanolja.com/jinframe/:id', method: 'POST', ...args });
   }
 }
 ```
@@ -88,7 +84,7 @@ console.log(query.request());
 
 You can change name or skill parameter at run-time. Even if you can change host address. Every change don't make fail and create well-formed AxiosRequestConfig object. Also you can change request time and transformRequest, validateStatus parameter. _x-www-form-urlencoded_ transformRequest already include. You only set content-type params. See _x-www-form-urlencoded_ [testcase](https://github.com/imjuni/jin-frame/blob/master/src/__tests__/jinframe.post.test.ts).
 
-Execution is simple. Create curried function after execute that function. jin-frame using axios library so using on browser.
+Execution no need additional progress. Create curried function after execute that function. jin-frame using axios library so using on browser.
 
 ```ts
 const query = new TestPostQuery('ironman', 'beam');

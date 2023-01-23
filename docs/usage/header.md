@@ -85,7 +85,11 @@ class GetHeroFrame extends JinFrame {
   public readonly heroId: number;
 
   constructor(comicId: number, heroId: number) {
-    super({ host: 'http://api.marvel-comics.com', path: '/comic/:comicId/hero/:heroId', method: 'POST' });
+    super({
+      host: 'http://api.marvel-comics.com',
+      path: '/comic/:comicId/hero/:heroId',
+      method: 'POST',
+    });
 
     this.comicId = comicId;
     this.heroId = heroId;

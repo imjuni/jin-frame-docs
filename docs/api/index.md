@@ -9,10 +9,11 @@ custom_edit_url: null
 ## Classes
 
 - [AbstractJinFrame](classes/AbstractJinFrame.md)
+- [JinCreateError](classes/JinCreateError.md)
 - [JinEitherFrame](classes/JinEitherFrame.md)
 - [JinFile](classes/JinFile.md)
 - [JinFrame](classes/JinFrame.md)
-- [JinFrameError](classes/JinFrameError.md)
+- [JinRequestError](classes/JinRequestError.md)
 
 ## Interfaces
 
@@ -24,6 +25,7 @@ custom_edit_url: null
 - [IFailJinEitherFrame](interfaces/IFailJinEitherFrame.md)
 - [IFailReplyJinEitherFrame](interfaces/IFailReplyJinEitherFrame.md)
 - [IFormatter](interfaces/IFormatter.md)
+- [IHeaderField](interfaces/IHeaderField.md)
 - [IHeaderFieldOption](interfaces/IHeaderFieldOption.md)
 - [IJinFrameCreateConfig](interfaces/IJinFrameCreateConfig.md)
 - [IJinFrameFunction](interfaces/IJinFrameFunction.md)
@@ -47,7 +49,7 @@ custom_edit_url: null
 
 #### Defined in
 
-[jin-frame/src/tools/ConstructorType.ts:19](https://github.com/imjuni/jin-frame/blob/e005d9d/src/tools/ConstructorType.ts#L19)
+[jin-frame/src/tools/ConstructorType.ts:19](https://github.com/imjuni/jin-frame/blob/8c406fc/src/tools/ConstructorType.ts#L19)
 
 ___
 
@@ -63,7 +65,7 @@ ___
 
 #### Defined in
 
-[jin-frame/src/tools/ConstructorType.ts:23](https://github.com/imjuni/jin-frame/blob/e005d9d/src/tools/ConstructorType.ts#L23)
+[jin-frame/src/tools/ConstructorType.ts:23](https://github.com/imjuni/jin-frame/blob/8c406fc/src/tools/ConstructorType.ts#L23)
 
 ___
 
@@ -80,7 +82,7 @@ ___
 
 #### Defined in
 
-[jin-frame/src/tools/ConstructorType.ts:28](https://github.com/imjuni/jin-frame/blob/e005d9d/src/tools/ConstructorType.ts#L28)
+[jin-frame/src/tools/ConstructorType.ts:28](https://github.com/imjuni/jin-frame/blob/8c406fc/src/tools/ConstructorType.ts#L28)
 
 ___
 
@@ -97,7 +99,7 @@ ___
 
 #### Defined in
 
-[jin-frame/src/tools/ConstructorType.ts:21](https://github.com/imjuni/jin-frame/blob/e005d9d/src/tools/ConstructorType.ts#L21)
+[jin-frame/src/tools/ConstructorType.ts:21](https://github.com/imjuni/jin-frame/blob/8c406fc/src/tools/ConstructorType.ts#L21)
 
 ___
 
@@ -107,7 +109,7 @@ ___
 
 #### Defined in
 
-[jin-frame/src/interfaces/TFieldRecords.ts:6](https://github.com/imjuni/jin-frame/blob/e005d9d/src/interfaces/TFieldRecords.ts#L6)
+[jin-frame/src/interfaces/TFieldRecords.ts:6](https://github.com/imjuni/jin-frame/blob/8c406fc/src/interfaces/TFieldRecords.ts#L6)
 
 ___
 
@@ -123,7 +125,7 @@ ___
 
 #### Defined in
 
-[jin-frame/src/interfaces/IFailJinEitherFrame.ts:26](https://github.com/imjuni/jin-frame/blob/e005d9d/src/interfaces/IFailJinEitherFrame.ts#L26)
+[jin-frame/src/interfaces/IFailJinEitherFrame.ts:29](https://github.com/imjuni/jin-frame/blob/8c406fc/src/interfaces/IFailJinEitherFrame.ts#L29)
 
 ___
 
@@ -139,7 +141,7 @@ ___
 
 #### Defined in
 
-[jin-frame/src/interfaces/TPassJinEitherFrame.ts:12](https://github.com/imjuni/jin-frame/blob/e005d9d/src/interfaces/TPassJinEitherFrame.ts#L12)
+[jin-frame/src/interfaces/TPassJinEitherFrame.ts:12](https://github.com/imjuni/jin-frame/blob/8c406fc/src/interfaces/TPassJinEitherFrame.ts#L12)
 
 ___
 
@@ -149,7 +151,7 @@ ___
 
 #### Defined in
 
-[jin-frame/src/interfaces/body/IBodyFieldOption.ts:9](https://github.com/imjuni/jin-frame/blob/e005d9d/src/interfaces/body/IBodyFieldOption.ts#L9)
+[jin-frame/src/interfaces/body/IBodyFieldOption.ts:9](https://github.com/imjuni/jin-frame/blob/8c406fc/src/interfaces/body/IBodyFieldOption.ts#L9)
 
 ___
 
@@ -159,7 +161,7 @@ ___
 
 #### Defined in
 
-[jin-frame/src/interfaces/body/IObjectBodyFieldOption.ts:9](https://github.com/imjuni/jin-frame/blob/e005d9d/src/interfaces/body/IObjectBodyFieldOption.ts#L9)
+[jin-frame/src/interfaces/body/IObjectBodyFieldOption.ts:9](https://github.com/imjuni/jin-frame/blob/8c406fc/src/interfaces/body/IObjectBodyFieldOption.ts#L9)
 
 ___
 
@@ -175,7 +177,7 @@ ___
 
 #### Defined in
 
-[jin-frame/src/interfaces/TPassJinEitherFrame.ts:6](https://github.com/imjuni/jin-frame/blob/e005d9d/src/interfaces/TPassJinEitherFrame.ts#L6)
+[jin-frame/src/interfaces/TPassJinEitherFrame.ts:6](https://github.com/imjuni/jin-frame/blob/8c406fc/src/interfaces/TPassJinEitherFrame.ts#L6)
 
 ___
 
@@ -185,7 +187,7 @@ ___
 
 #### Defined in
 
-[jin-frame/src/interfaces/TRequestPart.ts:6](https://github.com/imjuni/jin-frame/blob/e005d9d/src/interfaces/TRequestPart.ts#L6)
+[jin-frame/src/interfaces/TRequestPart.ts:6](https://github.com/imjuni/jin-frame/blob/8c406fc/src/interfaces/TRequestPart.ts#L6)
 
 ___
 
@@ -195,7 +197,7 @@ ___
 
 #### Defined in
 
-[jin-frame/src/interfaces/body/IBodyFieldOption.ts:4](https://github.com/imjuni/jin-frame/blob/e005d9d/src/interfaces/body/IBodyFieldOption.ts#L4)
+[jin-frame/src/interfaces/body/IBodyFieldOption.ts:4](https://github.com/imjuni/jin-frame/blob/8c406fc/src/interfaces/body/IBodyFieldOption.ts#L4)
 
 ___
 
@@ -205,7 +207,7 @@ ___
 
 #### Defined in
 
-[jin-frame/src/interfaces/body/IObjectBodyFieldOption.ts:4](https://github.com/imjuni/jin-frame/blob/e005d9d/src/interfaces/body/IObjectBodyFieldOption.ts#L4)
+[jin-frame/src/interfaces/body/IObjectBodyFieldOption.ts:4](https://github.com/imjuni/jin-frame/blob/8c406fc/src/interfaces/body/IObjectBodyFieldOption.ts#L4)
 
 ## Variables
 
@@ -215,7 +217,7 @@ ___
 
 #### Defined in
 
-[jin-frame/src/frames/defaultJinFrameTimeout.ts:1](https://github.com/imjuni/jin-frame/blob/e005d9d/src/frames/defaultJinFrameTimeout.ts#L1)
+[jin-frame/src/frames/defaultJinFrameTimeout.ts:1](https://github.com/imjuni/jin-frame/blob/8c406fc/src/frames/defaultJinFrameTimeout.ts#L1)
 
 ## Functions
 
@@ -236,7 +238,7 @@ ___
 
 #### Defined in
 
-[jin-frame/src/tools/applyFormatters.ts:44](https://github.com/imjuni/jin-frame/blob/e005d9d/src/tools/applyFormatters.ts#L44)
+[jin-frame/src/tools/applyFormatters.ts:38](https://github.com/imjuni/jin-frame/blob/8c406fc/src/tools/applyFormatters.ts#L38)
 
 ▸ **applyFormatters**(`initialValue`, `formatter`): `string`[]
 
@@ -253,7 +255,7 @@ ___
 
 #### Defined in
 
-[jin-frame/src/tools/applyFormatters.ts:45](https://github.com/imjuni/jin-frame/blob/e005d9d/src/tools/applyFormatters.ts#L45)
+[jin-frame/src/tools/applyFormatters.ts:39](https://github.com/imjuni/jin-frame/blob/8c406fc/src/tools/applyFormatters.ts#L39)
 
 ___
 
@@ -273,7 +275,7 @@ ___
 
 #### Defined in
 
-[jin-frame/src/tools/bitwised.ts:1](https://github.com/imjuni/jin-frame/blob/e005d9d/src/tools/bitwised.ts#L1)
+[jin-frame/src/tools/bitwised.ts:1](https://github.com/imjuni/jin-frame/blob/8c406fc/src/tools/bitwised.ts#L1)
 
 ___
 
@@ -294,7 +296,7 @@ ___
 
 #### Defined in
 
-[jin-frame/src/tools/encode.ts:1](https://github.com/imjuni/jin-frame/blob/e005d9d/src/tools/encode.ts#L1)
+[jin-frame/src/tools/encode.ts:1](https://github.com/imjuni/jin-frame/blob/8c406fc/src/tools/encode.ts#L1)
 
 ___
 
@@ -315,7 +317,7 @@ ___
 
 #### Defined in
 
-[jin-frame/src/tools/encode.ts:9](https://github.com/imjuni/jin-frame/blob/e005d9d/src/tools/encode.ts#L9)
+[jin-frame/src/tools/encode.ts:9](https://github.com/imjuni/jin-frame/blob/8c406fc/src/tools/encode.ts#L9)
 
 ▸ **encodes**(`enable`, `values`): `string`[]
 
@@ -332,7 +334,7 @@ ___
 
 #### Defined in
 
-[jin-frame/src/tools/encode.ts:10](https://github.com/imjuni/jin-frame/blob/e005d9d/src/tools/encode.ts#L10)
+[jin-frame/src/tools/encode.ts:10](https://github.com/imjuni/jin-frame/blob/8c406fc/src/tools/encode.ts#L10)
 
 ___
 
@@ -360,7 +362,7 @@ ___
 
 #### Defined in
 
-[jin-frame/src/processors/getBodyInfo.ts:11](https://github.com/imjuni/jin-frame/blob/e005d9d/src/processors/getBodyInfo.ts#L11)
+[jin-frame/src/processors/getBodyInfo.ts:11](https://github.com/imjuni/jin-frame/blob/8c406fc/src/processors/getBodyInfo.ts#L11)
 
 ___
 
@@ -380,7 +382,7 @@ ___
 
 #### Defined in
 
-[jin-frame/src/processors/getDefaultOption.ts:38](https://github.com/imjuni/jin-frame/blob/e005d9d/src/processors/getDefaultOption.ts#L38)
+[jin-frame/src/processors/getDefaultOption.ts:38](https://github.com/imjuni/jin-frame/blob/8c406fc/src/processors/getDefaultOption.ts#L38)
 
 ___
 
@@ -400,7 +402,7 @@ ___
 
 #### Defined in
 
-[jin-frame/src/processors/getDefaultOption.ts:92](https://github.com/imjuni/jin-frame/blob/e005d9d/src/processors/getDefaultOption.ts#L92)
+[jin-frame/src/processors/getDefaultOption.ts:92](https://github.com/imjuni/jin-frame/blob/8c406fc/src/processors/getDefaultOption.ts#L92)
 
 ___
 
@@ -420,7 +422,7 @@ ___
 
 #### Defined in
 
-[jin-frame/src/processors/getDefaultOption.ts:65](https://github.com/imjuni/jin-frame/blob/e005d9d/src/processors/getDefaultOption.ts#L65)
+[jin-frame/src/processors/getDefaultOption.ts:65](https://github.com/imjuni/jin-frame/blob/8c406fc/src/processors/getDefaultOption.ts#L65)
 
 ___
 
@@ -440,7 +442,7 @@ ___
 
 #### Defined in
 
-[jin-frame/src/processors/getDefaultOption.ts:23](https://github.com/imjuni/jin-frame/blob/e005d9d/src/processors/getDefaultOption.ts#L23)
+[jin-frame/src/processors/getDefaultOption.ts:23](https://github.com/imjuni/jin-frame/blob/8c406fc/src/processors/getDefaultOption.ts#L23)
 
 ___
 
@@ -460,7 +462,28 @@ ___
 
 #### Defined in
 
-[jin-frame/src/processors/getDefaultOption.ts:8](https://github.com/imjuni/jin-frame/blob/e005d9d/src/processors/getDefaultOption.ts#L8)
+[jin-frame/src/processors/getDefaultOption.ts:8](https://github.com/imjuni/jin-frame/blob/8c406fc/src/processors/getDefaultOption.ts#L8)
+
+___
+
+### getDuration
+
+▸ **getDuration**(`start`, `end`): `number`
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `start` | `Date` |
+| `end` | `Date` |
+
+#### Returns
+
+`number`
+
+#### Defined in
+
+[jin-frame/src/tools/getDuration.ts:4](https://github.com/imjuni/jin-frame/blob/8c406fc/src/tools/getDuration.ts#L4)
 
 ___
 
@@ -479,7 +502,7 @@ ___
 | Name | Type |
 | :------ | :------ |
 | `thisFrame` | `T` |
-| `fields` | `IHeaderField`[] |
+| `fields` | [`IHeaderField`](interfaces/IHeaderField.md)[] |
 | `strict?` | `boolean` |
 
 #### Returns
@@ -488,7 +511,7 @@ ___
 
 #### Defined in
 
-[jin-frame/src/processors/getHeaderInfo.ts:51](https://github.com/imjuni/jin-frame/blob/e005d9d/src/processors/getHeaderInfo.ts#L51)
+[jin-frame/src/processors/getHeaderInfo.ts:7](https://github.com/imjuni/jin-frame/blob/8c406fc/src/processors/getHeaderInfo.ts#L7)
 
 ___
 
@@ -515,7 +538,7 @@ ___
 
 #### Defined in
 
-[jin-frame/src/processors/getQueryParamInfo.ts:8](https://github.com/imjuni/jin-frame/blob/e005d9d/src/processors/getQueryParamInfo.ts#L8)
+[jin-frame/src/processors/getQueryParamInfo.ts:8](https://github.com/imjuni/jin-frame/blob/8c406fc/src/processors/getQueryParamInfo.ts#L8)
 
 ___
 
@@ -535,7 +558,7 @@ value is string[] \| Date[] \| number[] \| boolean[]
 
 #### Defined in
 
-[jin-frame/src/tools/typeAssert.ts:16](https://github.com/imjuni/jin-frame/blob/e005d9d/src/tools/typeAssert.ts#L16)
+[jin-frame/src/tools/typeAssert.ts:16](https://github.com/imjuni/jin-frame/blob/8c406fc/src/tools/typeAssert.ts#L16)
 
 ___
 
@@ -555,7 +578,7 @@ value is string \| number \| boolean \| Date
 
 #### Defined in
 
-[jin-frame/src/tools/typeAssert.ts:3](https://github.com/imjuni/jin-frame/blob/e005d9d/src/tools/typeAssert.ts#L3)
+[jin-frame/src/tools/typeAssert.ts:3](https://github.com/imjuni/jin-frame/blob/8c406fc/src/tools/typeAssert.ts#L3)
 
 ___
 
@@ -575,7 +598,7 @@ ___
 
 #### Defined in
 
-[jin-frame/src/tools/isValidateStatusDefault.ts:3](https://github.com/imjuni/jin-frame/blob/e005d9d/src/tools/isValidateStatusDefault.ts#L3)
+[jin-frame/src/tools/isValidateStatusDefault.ts:3](https://github.com/imjuni/jin-frame/blob/8c406fc/src/tools/isValidateStatusDefault.ts#L3)
 
 ___
 
@@ -606,7 +629,35 @@ ___
 
 #### Defined in
 
-[jin-frame/src/processors/processBodyFormatters.ts:8](https://github.com/imjuni/jin-frame/blob/e005d9d/src/processors/processBodyFormatters.ts#L8)
+[jin-frame/src/processors/processBodyFormatters.ts:8](https://github.com/imjuni/jin-frame/blob/8c406fc/src/processors/processBodyFormatters.ts#L8)
+
+___
+
+### processHeaderFormatters
+
+▸ **processHeaderFormatters**<`T`\>(`thisFrame`, `field`, `formatters`): `Record`<`string`, `any`\>
+
+#### Type parameters
+
+| Name | Type |
+| :------ | :------ |
+| `T` | extends `Record`<`string`, `any`\> |
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `thisFrame` | `T` |
+| `field` | [`IHeaderField`](interfaces/IHeaderField.md) |
+| `formatters` | [`IFormatter`](interfaces/IFormatter.md)[] |
+
+#### Returns
+
+`Record`<`string`, `any`\>
+
+#### Defined in
+
+[jin-frame/src/processors/processHeaderFormatters.ts:7](https://github.com/imjuni/jin-frame/blob/8c406fc/src/processors/processHeaderFormatters.ts#L7)
 
 ___
 
@@ -637,7 +688,7 @@ ___
 
 #### Defined in
 
-[jin-frame/src/processors/processObjectBodyFormatters.ts:9](https://github.com/imjuni/jin-frame/blob/e005d9d/src/processors/processObjectBodyFormatters.ts#L9)
+[jin-frame/src/processors/processObjectBodyFormatters.ts:8](https://github.com/imjuni/jin-frame/blob/8c406fc/src/processors/processObjectBodyFormatters.ts#L8)
 
 ___
 
@@ -657,7 +708,7 @@ ___
 
 #### Defined in
 
-[jin-frame/src/tools/slashUtils.ts:9](https://github.com/imjuni/jin-frame/blob/e005d9d/src/tools/slashUtils.ts#L9)
+[jin-frame/src/tools/slashUtils.ts:9](https://github.com/imjuni/jin-frame/blob/8c406fc/src/tools/slashUtils.ts#L9)
 
 ___
 
@@ -677,7 +728,7 @@ ___
 
 #### Defined in
 
-[jin-frame/src/tools/slashUtils.ts:1](https://github.com/imjuni/jin-frame/blob/e005d9d/src/tools/slashUtils.ts#L1)
+[jin-frame/src/tools/slashUtils.ts:1](https://github.com/imjuni/jin-frame/blob/8c406fc/src/tools/slashUtils.ts#L1)
 
 ___
 
@@ -697,7 +748,7 @@ ___
 
 #### Defined in
 
-[jin-frame/src/tools/slashUtils.ts:5](https://github.com/imjuni/jin-frame/blob/e005d9d/src/tools/slashUtils.ts#L5)
+[jin-frame/src/tools/slashUtils.ts:5](https://github.com/imjuni/jin-frame/blob/8c406fc/src/tools/slashUtils.ts#L5)
 
 ___
 
@@ -717,7 +768,7 @@ ___
 
 #### Defined in
 
-[jin-frame/src/tools/slashUtils.ts:13](https://github.com/imjuni/jin-frame/blob/e005d9d/src/tools/slashUtils.ts#L13)
+[jin-frame/src/tools/slashUtils.ts:13](https://github.com/imjuni/jin-frame/blob/8c406fc/src/tools/slashUtils.ts#L13)
 
 ___
 
@@ -738,4 +789,4 @@ ___
 
 #### Defined in
 
-[jin-frame/src/tools/typeAssert.ts:33](https://github.com/imjuni/jin-frame/blob/e005d9d/src/tools/typeAssert.ts#L33)
+[jin-frame/src/tools/typeAssert.ts:33](https://github.com/imjuni/jin-frame/blob/8c406fc/src/tools/typeAssert.ts#L33)

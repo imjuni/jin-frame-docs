@@ -13,20 +13,16 @@ Explain how to define header parameter using the jin-frame. The body parameter c
 ```ts
 class MarvelHeroPostFrame extends JinEitherFrame {
   @JinEitherFrame.param()
-  public readonly id: string;
+  public readonly id!: string;
 
   @JinEitherFrame.body()
-  public readonly username: string;
+  public readonly username!: string;
 
   @JinEitherFrame.body()
-  public readonly password: string;
+  public readonly password!: string;
 
   constructor(args: { id: string; username: string; password: string }) {
-    super({ host: 'http://api.marvel-comics.com', path: '/hero/:id', method: 'POST' });
-
-    this.id = args.id;
-    this.username = args.username;
-    this.password = args.password;
+    super({ ...args, host: 'http://api.marvel-comics.com', path: '/hero/:id', method: 'POST' });
   }
 }
 
@@ -134,7 +130,7 @@ interface IHeroInBody {
 
 class MarvelHeroPostFrame extends JinEitherFrame {
   @JinEitherFrame.param()
-  public readonly id: string;
+  public readonly id!: string;
 
   @JinEitherFrame.body({
     formatters: [
@@ -148,17 +144,13 @@ class MarvelHeroPostFrame extends JinEitherFrame {
       },
     ],
   })
-  public readonly hero: IHeroInBody;
+  public readonly hero!: IHeroInBody;
 
   @JinEitherFrame.body()
-  public readonly password: string;
+  public readonly password!: string;
 
   constructor(args: { id: string; hero: IHeroInBody; password: string }) {
-    super({ host: 'http://api.marvel-comics.com', path: '/hero/:id', method: 'POST' });
-
-    this.id = args.id;
-    this.hero = args.hero;
-    this.password = args.password;
+    super({ ...args, host: 'http://api.marvel-comics.com', path: '/hero/:id', method: 'POST' });
   }
 }
 ```

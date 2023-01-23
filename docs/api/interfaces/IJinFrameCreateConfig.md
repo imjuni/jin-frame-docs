@@ -24,4 +24,4 @@ Pick.validateStatus
 
 #### Defined in
 
-jin-frame/node_modules/axios/index.d.ts:298
+jin-frame/node_modules/axios/index.d.ts:308

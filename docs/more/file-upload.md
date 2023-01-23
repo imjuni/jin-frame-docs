@@ -21,7 +21,15 @@ class TestGetFrame extends JinEitherFrame {
   @JinEitherFrame.body()
   public readonly myFiles: JinFile[];
 
-  constructor({ description, file, files }: { description: string; file: JinFile; files: JinFile[] }) {
+  constructor({
+    description,
+    file,
+    files,
+  }: {
+    description: string;
+    file: JinFile;
+    files: JinFile[];
+  }) {
     super({
       host: 'http://some.api.google.com',
       path: '/fileupload-case04',

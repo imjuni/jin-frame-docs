@@ -1,39 +1,51 @@
 ---
 id: "JinFile"
-title: "Class: JinFile"
+title: "Class: JinFile<T>"
 sidebar_label: "JinFile"
 sidebar_position: 0
 custom_edit_url: null
 ---
 
+## Type parameters
+
+| Name | Type |
+| :------ | :------ |
+| `T` | extends `ReadStream` \| `Buffer` \| `File` \| `Blob` |
+
 ## Constructors
 
 ### constructor
 
-• **new JinFile**(`name`, `file`)
+• **new JinFile**<`T`\>(`name`, `file`)
+
+#### Type parameters
+
+| Name | Type |
+| :------ | :------ |
+| `T` | extends `ReadStream` \| `Buffer` \| `File` \| `Blob` |
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `name` | `string` |
-| `file` | `ReadStream` \| `Buffer` \| `File` \| `Blob` |
+| `file` | `T` |
 
 #### Defined in
 
-[jin-frame/src/frames/JinFile.ts:10](https://github.com/imjuni/jin-frame/blob/e005d9d/src/frames/JinFile.ts#L10)
+[jin-frame/src/frames/JinFile.ts:10](https://github.com/imjuni/jin-frame/blob/8c406fc/src/frames/JinFile.ts#L10)
 
 ## Properties
 
 ### #file
 
-• `Private` **#file**: `ReadStream` \| `Buffer` \| `File` \| `Blob`
+• `Private` **#file**: `T`
 
 file content via stream or buffer
 
 #### Defined in
 
-[jin-frame/src/frames/JinFile.ts:8](https://github.com/imjuni/jin-frame/blob/e005d9d/src/frames/JinFile.ts#L8)
+[jin-frame/src/frames/JinFile.ts:8](https://github.com/imjuni/jin-frame/blob/8c406fc/src/frames/JinFile.ts#L8)
 
 ___
 
@@ -45,21 +57,21 @@ filename
 
 #### Defined in
 
-[jin-frame/src/frames/JinFile.ts:5](https://github.com/imjuni/jin-frame/blob/e005d9d/src/frames/JinFile.ts#L5)
+[jin-frame/src/frames/JinFile.ts:5](https://github.com/imjuni/jin-frame/blob/8c406fc/src/frames/JinFile.ts#L5)
 
 ## Accessors
 
 ### file
 
-• `get` **file**(): `ReadStream` \| `Buffer` \| `File` \| `Blob`
+• `get` **file**(): `T`
 
 #### Returns
 
-`ReadStream` \| `Buffer` \| `File` \| `Blob`
+`T`
 
 #### Defined in
 
-[jin-frame/src/frames/JinFile.ts:15](https://github.com/imjuni/jin-frame/blob/e005d9d/src/frames/JinFile.ts#L15)
+[jin-frame/src/frames/JinFile.ts:15](https://github.com/imjuni/jin-frame/blob/8c406fc/src/frames/JinFile.ts#L15)
 
 ___
 
@@ -73,4 +85,4 @@ ___
 
 #### Defined in
 
-[jin-frame/src/frames/JinFile.ts:19](https://github.com/imjuni/jin-frame/blob/e005d9d/src/frames/JinFile.ts#L19)
+[jin-frame/src/frames/JinFile.ts:19](https://github.com/imjuni/jin-frame/blob/8c406fc/src/frames/JinFile.ts#L19)

@@ -32,4 +32,4 @@ Do encodeURIComponent execution, this option only executed in query parameter
 
 #### Defined in
 
-[jin-frame/src/interfaces/ICommonFieldOption.ts:3](https://github.com/imjuni/jin-frame/blob/e005d9d/src/interfaces/ICommonFieldOption.ts#L3)
+[jin-frame/src/interfaces/ICommonFieldOption.ts:3](https://github.com/imjuni/jin-frame/blob/8c406fc/src/interfaces/ICommonFieldOption.ts#L3)

@@ -29,7 +29,7 @@ Definition HTTP Request
 
 ### constructor
 
-• **new JinFrame**<`TPASS`, `TFAIL`\>(`«destructured»`)
+• **new JinFrame**<`TPASS`, `TFAIL`\>(`args`)
 
 #### Type parameters
 
@@ -40,14 +40,14 @@ Definition HTTP Request
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `«destructured»` | `Object` | - |
-| › `contentType?` | `string` | content-type of API Request endpoint |
-| › `customBody?` | `Object` | custom object of POST Request body data |
-| › `host?` | `string` | host of API Request endpoint |
-| › `method` | `Method` | method of API Request endpoint |
-| › `path?` | `string` | pathname of API Request endpoint |
+| Name | Type |
+| :------ | :------ |
+| `args` | `Object` |
+| `args.contentType?` | `string` |
+| `args.customBody?` | `Object` |
+| `args.host?` | `string` |
+| `args.method` | `Method` |
+| `args.path?` | `string` |
 
 #### Overrides
 
@@ -55,7 +55,7 @@ Definition HTTP Request
 
 #### Defined in
 
-[jin-frame/src/frames/JinFrame.ts:35](https://github.com/imjuni/jin-frame/blob/e005d9d/src/frames/JinFrame.ts#L35)
+[jin-frame/src/frames/JinFrame.ts:39](https://github.com/imjuni/jin-frame/blob/8c406fc/src/frames/JinFrame.ts#L39)
 
 ## Properties
 
@@ -71,7 +71,7 @@ content-type of API Request endpoint
 
 #### Defined in
 
-[jin-frame/src/frames/AbstractJinFrame.ts:114](https://github.com/imjuni/jin-frame/blob/e005d9d/src/frames/AbstractJinFrame.ts#L114)
+[jin-frame/src/frames/AbstractJinFrame.ts:87](https://github.com/imjuni/jin-frame/blob/8c406fc/src/frames/AbstractJinFrame.ts#L87)
 
 ___
 
@@ -91,7 +91,7 @@ custom object of POST Request body data
 
 #### Defined in
 
-[jin-frame/src/frames/AbstractJinFrame.ts:117](https://github.com/imjuni/jin-frame/blob/e005d9d/src/frames/AbstractJinFrame.ts#L117)
+[jin-frame/src/frames/AbstractJinFrame.ts:90](https://github.com/imjuni/jin-frame/blob/8c406fc/src/frames/AbstractJinFrame.ts#L90)
 
 ___
 
@@ -107,7 +107,7 @@ host of API Request endpoint
 
 #### Defined in
 
-[jin-frame/src/frames/AbstractJinFrame.ts:105](https://github.com/imjuni/jin-frame/blob/e005d9d/src/frames/AbstractJinFrame.ts#L105)
+[jin-frame/src/frames/AbstractJinFrame.ts:78](https://github.com/imjuni/jin-frame/blob/8c406fc/src/frames/AbstractJinFrame.ts#L78)
 
 ___
 
@@ -123,7 +123,7 @@ method of API Request endpoint
 
 #### Defined in
 
-[jin-frame/src/frames/AbstractJinFrame.ts:111](https://github.com/imjuni/jin-frame/blob/e005d9d/src/frames/AbstractJinFrame.ts#L111)
+[jin-frame/src/frames/AbstractJinFrame.ts:84](https://github.com/imjuni/jin-frame/blob/8c406fc/src/frames/AbstractJinFrame.ts#L84)
 
 ___
 
@@ -139,7 +139,21 @@ pathname of API Request endpoint
 
 #### Defined in
 
-[jin-frame/src/frames/AbstractJinFrame.ts:108](https://github.com/imjuni/jin-frame/blob/e005d9d/src/frames/AbstractJinFrame.ts#L108)
+[jin-frame/src/frames/AbstractJinFrame.ts:81](https://github.com/imjuni/jin-frame/blob/8c406fc/src/frames/AbstractJinFrame.ts#L81)
+
+___
+
+### startAt
+
+• `Protected` **startAt**: `Date`
+
+#### Inherited from
+
+[AbstractJinFrame](AbstractJinFrame.md).[startAt](AbstractJinFrame.md#startat)
+
+#### Defined in
+
+[jin-frame/src/frames/AbstractJinFrame.ts:95](https://github.com/imjuni/jin-frame/blob/8c406fc/src/frames/AbstractJinFrame.ts#L95)
 
 ___
 
@@ -155,7 +169,7 @@ transformRequest function of POST Request
 
 #### Defined in
 
-[jin-frame/src/frames/AbstractJinFrame.ts:120](https://github.com/imjuni/jin-frame/blob/e005d9d/src/frames/AbstractJinFrame.ts#L120)
+[jin-frame/src/frames/AbstractJinFrame.ts:93](https://github.com/imjuni/jin-frame/blob/8c406fc/src/frames/AbstractJinFrame.ts#L93)
 
 ___
 
@@ -169,7 +183,7 @@ ___
 
 #### Defined in
 
-[jin-frame/src/frames/AbstractJinFrame.ts:63](https://github.com/imjuni/jin-frame/blob/e005d9d/src/frames/AbstractJinFrame.ts#L63)
+[jin-frame/src/frames/AbstractJinFrame.ts:36](https://github.com/imjuni/jin-frame/blob/8c406fc/src/frames/AbstractJinFrame.ts#L36)
 
 ___
 
@@ -183,7 +197,7 @@ ___
 
 #### Defined in
 
-[jin-frame/src/frames/AbstractJinFrame.ts:67](https://github.com/imjuni/jin-frame/blob/e005d9d/src/frames/AbstractJinFrame.ts#L67)
+[jin-frame/src/frames/AbstractJinFrame.ts:40](https://github.com/imjuni/jin-frame/blob/8c406fc/src/frames/AbstractJinFrame.ts#L40)
 
 ___
 
@@ -197,7 +211,7 @@ ___
 
 #### Defined in
 
-[jin-frame/src/frames/AbstractJinFrame.ts:65](https://github.com/imjuni/jin-frame/blob/e005d9d/src/frames/AbstractJinFrame.ts#L65)
+[jin-frame/src/frames/AbstractJinFrame.ts:38](https://github.com/imjuni/jin-frame/blob/8c406fc/src/frames/AbstractJinFrame.ts#L38)
 
 ___
 
@@ -211,7 +225,7 @@ ___
 
 #### Defined in
 
-[jin-frame/src/frames/AbstractJinFrame.ts:59](https://github.com/imjuni/jin-frame/blob/e005d9d/src/frames/AbstractJinFrame.ts#L59)
+[jin-frame/src/frames/AbstractJinFrame.ts:32](https://github.com/imjuni/jin-frame/blob/8c406fc/src/frames/AbstractJinFrame.ts#L32)
 
 ___
 
@@ -225,7 +239,7 @@ ___
 
 #### Defined in
 
-[jin-frame/src/frames/AbstractJinFrame.ts:61](https://github.com/imjuni/jin-frame/blob/e005d9d/src/frames/AbstractJinFrame.ts#L61)
+[jin-frame/src/frames/AbstractJinFrame.ts:34](https://github.com/imjuni/jin-frame/blob/8c406fc/src/frames/AbstractJinFrame.ts#L34)
 
 ## Methods
 
@@ -263,7 +277,7 @@ Functions that invoke HTTP APIs
 
 #### Defined in
 
-[jin-frame/src/frames/JinFrame.ts:57](https://github.com/imjuni/jin-frame/blob/e005d9d/src/frames/JinFrame.ts#L57)
+[jin-frame/src/frames/JinFrame.ts:77](https://github.com/imjuni/jin-frame/blob/8c406fc/src/frames/JinFrame.ts#L77)
 
 ___
 
@@ -291,7 +305,7 @@ AxiosResponse With PassFailEither
 
 #### Defined in
 
-[jin-frame/src/frames/JinFrame.ts:128](https://github.com/imjuni/jin-frame/blob/e005d9d/src/frames/JinFrame.ts#L128)
+[jin-frame/src/frames/JinFrame.ts:162](https://github.com/imjuni/jin-frame/blob/8c406fc/src/frames/JinFrame.ts#L162)
 
 ___
 
@@ -315,7 +329,7 @@ ___
 
 #### Defined in
 
-[jin-frame/src/frames/AbstractJinFrame.ts:175](https://github.com/imjuni/jin-frame/blob/e005d9d/src/frames/AbstractJinFrame.ts#L175)
+[jin-frame/src/frames/AbstractJinFrame.ts:143](https://github.com/imjuni/jin-frame/blob/8c406fc/src/frames/AbstractJinFrame.ts#L143)
 
 ___
 
@@ -333,7 +347,7 @@ ___
 
 #### Defined in
 
-[jin-frame/src/frames/AbstractJinFrame.ts:157](https://github.com/imjuni/jin-frame/blob/e005d9d/src/frames/AbstractJinFrame.ts#L157)
+[jin-frame/src/frames/AbstractJinFrame.ts:125](https://github.com/imjuni/jin-frame/blob/8c406fc/src/frames/AbstractJinFrame.ts#L125)
 
 ___
 
@@ -355,13 +369,13 @@ AxiosRequestConfig create using by class member variable.
 
 created AxiosRequestConfig
 
-#### Inherited from
+#### Overrides
 
 [AbstractJinFrame](AbstractJinFrame.md).[request](AbstractJinFrame.md#request)
 
 #### Defined in
 
-[jin-frame/src/frames/AbstractJinFrame.ts:218](https://github.com/imjuni/jin-frame/blob/e005d9d/src/frames/AbstractJinFrame.ts#L218)
+[jin-frame/src/frames/JinFrame.ts:49](https://github.com/imjuni/jin-frame/blob/8c406fc/src/frames/JinFrame.ts#L49)
 
 ___
 
@@ -412,7 +426,7 @@ decorator to set class variable to HTTP API body parameter
 
 #### Defined in
 
-[jin-frame/src/frames/AbstractJinFrame.ts:87](https://github.com/imjuni/jin-frame/blob/e005d9d/src/frames/AbstractJinFrame.ts#L87)
+[jin-frame/src/frames/AbstractJinFrame.ts:60](https://github.com/imjuni/jin-frame/blob/8c406fc/src/frames/AbstractJinFrame.ts#L60)
 
 ___
 
@@ -463,7 +477,7 @@ decorator to set class variable to HTTP API header parameter
 
 #### Defined in
 
-[jin-frame/src/frames/AbstractJinFrame.ts:101](https://github.com/imjuni/jin-frame/blob/e005d9d/src/frames/AbstractJinFrame.ts#L101)
+[jin-frame/src/frames/AbstractJinFrame.ts:74](https://github.com/imjuni/jin-frame/blob/8c406fc/src/frames/AbstractJinFrame.ts#L74)
 
 ___
 
@@ -514,7 +528,7 @@ decorator to set class variable to HTTP API body parameter
 
 #### Defined in
 
-[jin-frame/src/frames/AbstractJinFrame.ts:94](https://github.com/imjuni/jin-frame/blob/e005d9d/src/frames/AbstractJinFrame.ts#L94)
+[jin-frame/src/frames/AbstractJinFrame.ts:67](https://github.com/imjuni/jin-frame/blob/8c406fc/src/frames/AbstractJinFrame.ts#L67)
 
 ___
 
@@ -565,7 +579,7 @@ decorator to set class variable to HTTP API path parameter
 
 #### Defined in
 
-[jin-frame/src/frames/AbstractJinFrame.ts:73](https://github.com/imjuni/jin-frame/blob/e005d9d/src/frames/AbstractJinFrame.ts#L73)
+[jin-frame/src/frames/AbstractJinFrame.ts:46](https://github.com/imjuni/jin-frame/blob/8c406fc/src/frames/AbstractJinFrame.ts#L46)
 
 ___
 
@@ -616,4 +630,4 @@ decorator to set class variable to HTTP API query parameter
 
 #### Defined in
 
-[jin-frame/src/frames/AbstractJinFrame.ts:80](https://github.com/imjuni/jin-frame/blob/e005d9d/src/frames/AbstractJinFrame.ts#L80)
+[jin-frame/src/frames/AbstractJinFrame.ts:53](https://github.com/imjuni/jin-frame/blob/8c406fc/src/frames/AbstractJinFrame.ts#L53)
